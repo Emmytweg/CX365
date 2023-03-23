@@ -1,0 +1,10 @@
+.dashboardOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    gap:  0;
+    height: 100vh;
+
+}
+.dashboardOne body{
+}
