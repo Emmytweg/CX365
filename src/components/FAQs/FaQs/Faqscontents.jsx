@@ -1,10 +1,12 @@
-import {React, useReducer, useState, useRef} from 'react'
+import {React,  useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faSearch,faPlusCircle,faMinusCircle } from '@fortawesome/free-solid-svg-icons'
 import './Faqscontent.css'
-import { reducer } from '../../Reducer'
-import { ACTIONS } from '../../Reducer'
+
 function Faqscontents( {questions} ) {
+
+
+  
 const [clicked, setclicked] = useState(null)
 const [filteredQuestions, setfilteredQuestions] = useState([])
 const search = (e) => {

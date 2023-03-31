@@ -1,5 +1,5 @@
 {
-  "homepage": "https://emmytweg.github.io/CX365/",
+  "homepage": "https://Emmytweg.github.io/CX365",
   "name": "new-cx",
   "version": "0.1.0",
   "private": true,
@@ -23,9 +23,9 @@
     "yup": "^1.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

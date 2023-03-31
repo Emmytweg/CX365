@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom'
 import './DashboardOneSideBar.css'
 function DashboardOneSideBar() {
   return (
-    <div className='dashBoardSideBar'>
+   <div className="beforeSideBar">
+     <div className='dashBoardSideBar'>
         <div className="sideBarLogo">
             <img src={logo} alt="" />
         </div>
@@ -40,12 +41,12 @@ function DashboardOneSideBar() {
                 </Link>
                
                 
-                <Link>
+                <Link to='/customers'>
                 <li>
                     <FontAwesomeIcon icon={faPeopleArrows} className='sideBarIcon' /> Customers
                 </li></Link>
                 
-                <Link>
+                <Link to='/deals'>
                 <li>
                     <FontAwesomeIcon icon={faPlaceOfWorship} className='sideBarIcon' /> Deals
                 </li></Link>
@@ -56,7 +57,7 @@ function DashboardOneSideBar() {
                 </li>
                 </Link>
 
-               <Link>
+               <Link to='/message'>
                <li>
                     <FontAwesomeIcon icon={faMessage} className='sideBarIcon' /> Messages
                 </li>
@@ -73,6 +74,7 @@ function DashboardOneSideBar() {
                 </li></Link>
             </ul>
         </div>
+        <hr className="the-line" />
         <div className="sideBarSupport">
             <ul>
             <Link>
@@ -94,6 +96,7 @@ function DashboardOneSideBar() {
               </ul>
         </div>
     </div>
+   </div>
   )
 }
 

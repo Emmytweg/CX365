@@ -3,8 +3,7 @@
     grid-template-columns: 1fr 1fr;
     margin: auto;
     gap:  0;
-    height: 100vh;
-
-}
-.dashboardOne body{
+    height: 1024px;
+    width: 90rem ;
+    overflow: hidden;
 }

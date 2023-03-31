@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import LandingPage from './components/LandingPage/LandingPage';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -10,6 +9,8 @@ import SignUpThree from './components/SignUpThree/SignUpThree';
 import RealContactUs from './components/RealContactUs/RealContactUs';
 import FAQs from './components/FAQs/FAQs';
 import DashboardOne from './components/DashboardOne/DashboardOne';
+import Deal from './components/Deals/Deal';
+import Message from './components/Messages/Message';
 function App() {
   return (
    <div>
@@ -25,6 +26,8 @@ function App() {
         <Route path='/contactus' element={<RealContactUs />} />
         <Route path='/faqs' element= {<FAQs/>} />
         <Route path='/dashboardone' element= {<DashboardOne/>} />
+        <Route path= '/deals' element= { <Deal /> } />
+        <Route path='/message' element= {<Message />} />
       </Routes>
     </Router>
    </div>

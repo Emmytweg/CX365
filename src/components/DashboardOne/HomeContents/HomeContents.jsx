@@ -1,5 +1,5 @@
 import {React, useState} from 'react'
-import styles from'./HomeContents.css'
+import './HomeContents.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell, faGear, faSearch } from '@fortawesome/free-solid-svg-icons'
 import BarChart from './BarChart'
@@ -8,7 +8,7 @@ import LineGraph from './LineGraph'
 
 function HomeContents() {
 
-const [userData, setuserData] = useState({
+const [userData] = useState({
     labels: Sales.map(sale => sale.month) ,
     datasets: [{
         label: ["Month"],
@@ -27,7 +27,7 @@ const [userData, setuserData] = useState({
         borderRadius: [10],
     }]
 })
-const [graph, setGraph] = useState(
+const [graph] = useState(
     {labels: ["wk1", "wk2", "wk3", "wk4", "wk5", "wk6", "wk7"],
     datasets: [
         {
