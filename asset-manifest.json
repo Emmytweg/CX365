@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CX365/static/css/main.1544260d.css",
+    "main.js": "/CX365/static/js/main.cbb74e26.js",
+    "static/js/787.1ff5f73f.chunk.js": "/CX365/static/js/787.1ff5f73f.chunk.js",
+    "static/media/frame.png": "/CX365/static/media/frame.891e287f8509750f36dd.png",
+    "static/media/handshake.png": "/CX365/static/media/handshake.f777df1c1cb0b9484ac7.png",
+    "static/media/question.jpg": "/CX365/static/media/question.bcccd4539c215083eca2.jpg",
+    "static/media/customer.jpg": "/CX365/static/media/customer.f6e5abca496a344bbbcc.jpg",
+    "static/media/squares.png": "/CX365/static/media/squares.9839e04aced76dd1251e.png",
+    "static/media/image.jpg": "/CX365/static/media/image.f6263e8fbb30baae8ef7.jpg",
+    "static/media/logo.jpg": "/CX365/static/media/logo.76e4a8e97dc3cf09262a.jpg",
+    "static/media/girlTwo.png": "/CX365/static/media/girlTwo.62fd2ec58dfc9118918a.png",
+    "static/media/male.png": "/CX365/static/media/male.3c632ee10ee1f299280f.png",
+    "static/media/bigeclipse.png": "/CX365/static/media/bigeclipse.2a888b0fdee1c0442f6b.png",
+    "index.html": "/CX365/index.html",
+    "main.1544260d.css.map": "/CX365/static/css/main.1544260d.css.map",
+    "main.cbb74e26.js.map": "/CX365/static/js/main.cbb74e26.js.map",
+    "787.1ff5f73f.chunk.js.map": "/CX365/static/js/787.1ff5f73f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1544260d.css",
+    "static/js/main.cbb74e26.js"
+  ]
+}
