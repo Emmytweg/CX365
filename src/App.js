@@ -16,6 +16,7 @@ function App() {
    <div>
    <div className='display'>
    <Router basename='/'>
+    <LandingPage />
       <Routes>
         <Route path='/' element={<LandingPage />}/>
         <Route path='/LogIn' element={<LoginScreen />} />
